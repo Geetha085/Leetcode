@@ -1,0 +1,13 @@
+#Using max() function
+a=[4,0,9,7,1]
+b=max(a)
+print("Maximum element is:",b)
+
+#Using loop
+a=[4,0,9,7,1]
+max_elem=a[0]
+for i in a:
+    if i>max_elem:
+        max_elem=i
+print("Maximum element is:",max_elem)
+
