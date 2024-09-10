@@ -1,0 +1,24 @@
+#using Slicing
+a="Hello"
+b=a[::-1]
+print(b)
+
+#using Built in Function
+a="Hello"
+b=''.join(reversed(a))
+print(b)
+
+#Reversing Strings in a Loop
+c="Hello"
+ch=""
+for i in c:
+    ch=i+ch
+print(ch)
+
+c="Hello"
+ch=""
+index=len(c)-1
+while index>=0:
+    ch+=c[index]
+    index-=1
+print(ch)
