@@ -1,0 +1,6 @@
+class Solution:
+    def get_min_max(self, arr):
+        result=[]
+        result.append(min(arr))
+        result.append(max(arr))
+        return result
