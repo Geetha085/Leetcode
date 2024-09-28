@@ -1,0 +1,5 @@
+class Solution:
+    def get_min_max(self, arr):
+        if len(arr) == 0:
+            return None  
+        return (min(arr), max(arr))  
