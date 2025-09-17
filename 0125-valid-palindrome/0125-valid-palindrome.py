@@ -6,6 +6,8 @@ class Solution:
                 if j.isalnum():
                     res.append(j)
         return res==res[::-1]
+
+        
           
 
         
