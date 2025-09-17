@@ -5,9 +5,7 @@ class Solution:
             for j in i:
                 if j.isalnum():
                     res.append(j)
-        if res==res[::-1]:
-            return True
-        else:
-            return False
+        return res==res[::-1]
+          
 
         
